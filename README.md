@@ -1,11 +1,5 @@
 # Distributed Filesystem using MPI and Socket
 
-### Group 14
-
-### April 20, 2024
-
-## Design Explanation
-
 This project implements a distributed filesystem using MPI (Message Passing Interface) for communication between nodes and sockets for communication between clients and the server. The system consists of multiple clients, a server, and multiple data nodes. Each client can upload, retrieve, list files, or get metadata for files.
 
 - Clients (dfsclient.py): Clients interact with the server to perform file operations. They can retrieve files, upload files, list files, or get metadata for files.
